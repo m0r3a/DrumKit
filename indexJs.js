@@ -37,7 +37,7 @@ function tom4 () {
 function snare () {
     var audio = new Audio("./sounds/snare.mp3");
     audio.play();
-    document.getElementById("w").classList.add("pressed");
+    document.getElementById("j").classList.add("pressed");
     setTimeout(function(){
         document.getElementById("j").classList.remove("pressed");
     }, 100);
